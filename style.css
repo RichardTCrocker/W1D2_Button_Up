@@ -1,0 +1,44 @@
+.search{
+    border-radius: 25px;
+    text-align: center;
+    border: 1px solid teal;
+    color: teal;
+    padding: 0 25px;
+    cursor: pointer;
+}
+
+.plus{
+    border-radius: 50%;
+    border: 0;
+    background-color: turquoise;
+    color: white;
+    font-size:x-large;
+    width: 30px;
+    aspect-ratio: 1;
+    cursor: pointer;
+}
+
+.createaccount{
+    text-align: center;
+    background-color:cornflowerblue;
+    box-shadow: 5px 5px black;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.quicktransition{
+    transition: all 100ms ease-in-out;
+}
+
+.slowtransition{
+    transition: background-color 1s ease-in-out;
+}
+.quicktransition:active{
+    transform:translate(5px, 5px);
+    box-shadow: 0 0;
+}
+
+.slowtransition:hover{
+    background-color: brown;
+}
